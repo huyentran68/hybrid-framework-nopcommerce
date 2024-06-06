@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="" />
+    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hybrid-framework-nopcommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid-framework-nopcommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/RunNotCommercesTestcase.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hOD8io0m0R6cZbLpEzjKiLTfzo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,9 +35,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml.executor": "Run",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="/Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/RunTestcase.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,5 +73,16 @@
       <updated>1717456077643</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
