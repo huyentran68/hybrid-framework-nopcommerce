@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="">
+    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="Toptic 01 - Build Framework Structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hybrid-framework-nopcommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid-framework-nopcommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/RunNotCommercesTestcase.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,15 +37,110 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml.executor": "Run",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.Register_01_Emty_Data.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.Register_03_Register_Existing_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.Register_04_Password_Less_Than_6_Chars.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.Register_05_Success.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml">
+    <configuration name="Account_01_Register." type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Account_01_Register" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_01_Register.Register_04_Password_Less_Than_6_Chars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Account_01_Register" />
+      <option name="METHOD_NAME" value="Register_04_Password_Less_Than_6_Chars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_01_Register.Register_05_Password_Less_Than_6_Chars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Account_01_Register" />
+      <option name="METHOD_NAME" value="Register_05_Password_Less_Than_6_Chars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_01_Register.TC_06_Register_Invalid_Confirm_Password" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Account_01_Register" />
+      <option name="METHOD_NAME" value="TC_06_Register_Invalid_Confirm_Password" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid-framework-nopcommerce" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/RunTestcase.xml" />
@@ -50,9 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
+      <item itemvalue="TestNG.Account_01_Register." />
+      <item itemvalue="TestNG.Account_01_Register.Register_04_Password_Less_Than_6_Chars" />
+      <item itemvalue="TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars" />
+      <item itemvalue="TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
+        <item itemvalue="TestNG.Account_01_Register." />
+        <item itemvalue="TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars" />
+        <item itemvalue="TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password" />
+        <item itemvalue="TestNG.Account_01_Register.Register_04_Password_Less_Than_6_Chars" />
       </list>
     </recent_temporary>
   </component>
@@ -72,6 +184,15 @@
       <option name="presentableId" value="Default" />
       <updated>1717456077643</updated>
     </task>
+    <task id="LOCAL-00001" summary="Toptic 01 - Build Framework Structure">
+      <option name="closed" value="true" />
+      <created>1717691890278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717691890278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +205,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Toptic 01 - Build Framework Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toptic 01 - Build Framework Structure" />
   </component>
 </project>
