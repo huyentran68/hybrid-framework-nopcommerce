@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="Toptic 01 - Build Framework Structure">
+    <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="Build register testcase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Account_01_Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717691890278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Build register testcase">
+      <option name="closed" value="true" />
+      <created>1720406904238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720406904238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Toptic 01 - Build Framework Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toptic 01 - Build Framework Structure" />
+    <MESSAGE value="Build register testcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build register testcase" />
   </component>
 </project>
