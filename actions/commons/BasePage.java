@@ -14,6 +14,9 @@ import java.util.List;
 import java.util.Set;
 
 public class BasePage {
+    public static BasePage getBasePage(){
+        return new BasePage();
+    }
     public void sleepInSecond(long timeInSecond) {
         try {
             Thread.sleep(timeInSecond * 1000L);

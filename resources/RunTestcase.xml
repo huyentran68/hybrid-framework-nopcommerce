@@ -3,7 +3,7 @@
 <suite name="Nopcommerce">
     <test verbose="2" preserve-order="true" name="Run on Firefox">
         <classes>
-            <class name="com.nopcommerce.account.Account_01_Register">
+            <class name="com.nopcommerce.account.Level_03_PageObject">
             </class>
         </classes>
     </test>

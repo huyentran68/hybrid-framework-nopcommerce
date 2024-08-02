@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e34be0c-3d0d-4bf9-9e1c-2ee94d95c3fb" name="Changes" comment="Build register testcase">
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/CustomerPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/LoginPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/CustomerPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/LoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Level_02_BasePage_2_Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Level_02_BasePage_2_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/com/nopcommerce/account/Level_03_PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/RunTestcase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/RunTestcase.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +60,19 @@
     &quot;TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Account_01_Register.Register_05_Success.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Level_03_PageObject.Register_04_Register_Existing_Email.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageObjects" />
+      <recent name="pageUIs" />
+      <recent name="com.nopcommerce.account" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml">
@@ -79,24 +98,6 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Account_01_Register.Register_04_Password_Less_Than_6_Chars" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hybrid-framework-nopcommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Account_01_Register" />
-      <option name="METHOD_NAME" value="Register_04_Password_Less_Than_6_Chars" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,10 +140,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Level_03_PageObject.Register_04_Register_Existing_Email" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hybrid-framework-nopcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.account" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.account.Level_03_PageObject" />
+      <option name="METHOD_NAME" value="Register_04_Register_Existing_Email" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hybrid-framework-nopcommerce" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/RunTestcase.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
-      <item itemvalue="TestNG.Account_01_Register." />
-      <item itemvalue="TestNG.Account_01_Register.Register_04_Password_Less_Than_6_Chars" />
       <item itemvalue="TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars" />
       <item itemvalue="TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password" />
+      <item itemvalue="TestNG.Account_01_Register." />
+      <item itemvalue="TestNG.Level_03_PageObject.Register_04_Register_Existing_Email" />
+      <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/lap02428/Code/hybrid-framework-nopcommerce/resources/RunTestcase.xml" />
+        <item itemvalue="TestNG.Level_03_PageObject.Register_04_Register_Existing_Email" />
         <item itemvalue="TestNG.Account_01_Register." />
         <item itemvalue="TestNG.Account_01_Register.Register_05_Password_Less_Than_6_Chars" />
         <item itemvalue="TestNG.Account_01_Register.TC_06_Register_Invalid_Confirm_Password" />
-        <item itemvalue="TestNG.Account_01_Register.Register_04_Password_Less_Than_6_Chars" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720406904238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Build register testcase">
+      <option name="closed" value="true" />
+      <created>1720777033400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720777033400</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
