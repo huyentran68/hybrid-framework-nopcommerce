@@ -1,6 +1,7 @@
 package pageObjects;
 
 import commons.BasePage;
+import commons.PageGeneratorManager;
 import org.openqa.selenium.WebDriver;
 import pageUIs.HomePageUI;
 import pageUIs.RegisterPageUI;
@@ -11,9 +12,10 @@ public class RegisterPageObject extends BasePage {
     }
 
     WebDriver driver;
-    public void clickToNopCommerceLogo() {
+    public HomePageObject clickToNopCommerceLogo() {
         waitForElementClickable(driver, RegisterPageUI.NOPCOMMERCE_LOGO);
         clickToElement(driver,RegisterPageUI.NOPCOMMERCE_LOGO);
+        return PageGeneratorManager.getHomePage(driver);
     }
     public void clickToRegisterButton() {
         waitForElementClickable(driver, RegisterPageUI.REGISTER_BUTTON);

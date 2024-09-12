@@ -2,8 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Nopcommerce">
     <test verbose="2" preserve-order="true" name="Run on Firefox">
+        <parameter name="browser" value="firefox" />
         <classes>
-            <class name="com.nopcommerce.account.Level_03_PageObject">
+            <class name="com.nopcommerce.account.Level_04_MultipleBrowser">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Run on Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.nopcommerce.account.Level_04_MultipleBrowser">
             </class>
         </classes>
     </test>
